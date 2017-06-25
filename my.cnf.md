@@ -49,4 +49,9 @@ skip-name-resolve
 query_cache_type=1
 query_cache_size=120MB
 query_cache_limit=1MB
+
+# InnoDB
+innodb_buffer_pool_size=1G # 50%-80% ram
+innodb_buffer_pool_instances=1G # one instance per GB of innodb_buffer_pool_size
+innodb_log_file_size=1G
 ~~~
