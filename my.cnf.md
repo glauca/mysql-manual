@@ -44,4 +44,9 @@ symbolic-links=0
 
 # 不使用 DNS
 skip-name-resolve
+
+# query cache
+query_cache_type=1
+query_cache_size=120MB
+query_cache_limit=1MB
 ~~~
